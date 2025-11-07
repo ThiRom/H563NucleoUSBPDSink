@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{3f8c5dfb-73f3-49cb-9565-be44915be280}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{5a995f49-b29f-4030-b524-6dc215be9e36}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{0a8ffbba-e77f-4ff4-a454-af1468802f54}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\Application">
+      <UniqueIdentifier>{80457257-b1ee-4a01-a916-b83abe6c4c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\EWARM">
+      <UniqueIdentifier>{a440d998-0203-4554-8389-7bd694c5873a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\User">
+      <UniqueIdentifier>{2676182c-397c-4c93-8ff7-deb9ab5d9509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\User\Core">
+      <UniqueIdentifier>{996ff600-68bd-4bf0-aa4d-5d9a338c7f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\User\USBPD">
+      <UniqueIdentifier>{c601b69e-25f3-46c3-9410-33e0652bf2e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\User\USBPD\Target">
+      <UniqueIdentifier>{bb3099a6-de14-4f13-bc16-20bf9949cd1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Application\User\USBPD\App">
+      <UniqueIdentifier>{f698112b-e902-4ec1-823c-2a71f17c1c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers">
+      <UniqueIdentifier>{32d4c862-6809-4a93-b9f7-1f7b5002dfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\STM32H5xx_HAL_Driver">
+      <UniqueIdentifier>{a6ed16aa-c6e2-4c28-953b-19c3dea18667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Drivers\CMSIS">
+      <UniqueIdentifier>{976afc69-fa62-4ced-9257-77f9be215dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares">
+      <UniqueIdentifier>{982975d2-599e-4245-aebd-1b8b8a835509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Middlewares\USBPD">
+      <UniqueIdentifier>{060f6210-a189-413d-9f12-c10858c8eba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Utilities">
+      <UniqueIdentifier>{96303f3b-c74d-45c1-a88a-be0993689fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{2be505d4-73bb-4d89-90d3-953bd12c23ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application">
+      <UniqueIdentifier>{76cccb17-34a5-4da4-85ea-8ac49a813fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\EWARM">
+      <UniqueIdentifier>{4163459e-2428-49e7-96a4-11804bc306c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\User">
+      <UniqueIdentifier>{166b9749-647d-4b4b-b233-7d69e680faec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\User\Core">
+      <UniqueIdentifier>{adb5b057-bed3-4537-b556-391c85f35010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\User\USBPD">
+      <UniqueIdentifier>{0b4e60f6-538c-41ee-884d-d178684ebae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\User\USBPD\Target">
+      <UniqueIdentifier>{f2495000-a5ff-4599-b02b-4932e3554e89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Application\User\USBPD\App">
+      <UniqueIdentifier>{b2dca38f-652e-445c-affd-34e07947101b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers">
+      <UniqueIdentifier>{4653d28c-f96c-49fc-aa10-b1dfc4c14ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\STM32H5xx_HAL_Driver">
+      <UniqueIdentifier>{b967f581-9775-4e91-aa9f-95277335030c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Drivers\CMSIS">
+      <UniqueIdentifier>{13083555-a781-4ce5-ae7d-97570b7ec247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares">
+      <UniqueIdentifier>{739deb1d-c280-4d8d-86b2-403920143652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Middlewares\USBPD">
+      <UniqueIdentifier>{1d12a427-f9f6-482a-b777-5664023ae2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Utilities">
+      <UniqueIdentifier>{3d7d6861-8e21-438f-8a4a-251d02b957f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{61aa9dc1-2e38-407a-a84f-b69b267fc026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{fc18e811-6bd4-4ff4-ae2b-75f6e41dec93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Src\main.c">
+      <Filter>Source files\Application\User\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Src\stm32h5xx_it.c">
+      <Filter>Source files\Application\User\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Src\stm32h5xx_hal_msp.c">
+      <Filter>Source files\Application\User\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="USBPD\Target\usbpd_dpm_user.c">
+      <Filter>Source files\Application\User\USBPD\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="USBPD\Target\usbpd_vdm_user.c">
+      <Filter>Source files\Application\User\USBPD\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="USBPD\Target\usbpd_pwr_user.c">
+      <Filter>Source files\Application\User\USBPD\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="USBPD\App\usbpd.c">
+      <Filter>Source files\Application\User\USBPD\App</Filter>
+    </ClCompile>
+    <ClCompile Include="USBPD\App\usbpd_dpm_core.c">
+      <Filter>Source files\Application\User\USBPD\App</Filter>
+    </ClCompile>
+    <ClCompile Include="USBPD\App\usbpd_pwr_if.c">
+      <Filter>Source files\Application\User\USBPD\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_utils.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_exti.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cortex.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma_ex.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc_ex.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash_ex.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_gpio.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_pwr_ex.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_exti.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_rcc.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_icache.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_usart.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_lpuart.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_ucpd.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_gpio.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_dma.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_uart_ex.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_tim.c">
+      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Src\system_stm32h5xx.c">
+      <Filter>Source files\Drivers\CMSIS</Filter>
+    </ClCompile>
+    <Library Include="Middlewares\ST\STM32_USBPD_Library\Core\lib\USBPDCORE_PD3_FULL_CM33_wc32.a">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </Library>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Core\src\usbpd_trace.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Devices\STM32H5XX\src\usbpd_cad_hw_if.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Devices\STM32H5XX\src\usbpd_hw.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Devices\STM32H5XX\src\usbpd_hw_if_it.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Devices\STM32H5XX\src\usbpd_phy.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Devices\STM32H5XX\src\usbpd_phy_hw_if.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Devices\STM32H5XX\src\usbpd_pwr_hw_if.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Middlewares\ST\STM32_USBPD_Library\Devices\STM32H5XX\src\usbpd_timersserver.c">
+      <Filter>Source files\Middlewares\USBPD</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\GUI_INTERFACE\bsp_gui.c">
+      <Filter>Source files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\GUI_INTERFACE\gui_api.c">
+      <Filter>Source files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\GUI_INTERFACE\data_struct_tlv.c">
+      <Filter>Source files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\TRACER_EMB\tracer_emb.c">
+      <Filter>Source files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\TRACER_EMB\tracer_emb_hw.c">
+      <Filter>Source files\Utilities</Filter>
+    </ClCompile>
+    <None Include="stm32.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32H5xxxx\StartupFiles\startup_stm32h563xx.c">
+      <Filter>Source files\Device-specific files</Filter>
+    </ClCompile>
+    <None Include="USBPDH563-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="USBPDH563-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>
