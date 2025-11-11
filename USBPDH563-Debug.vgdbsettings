@@ -10,7 +10,7 @@
     <AutoProgramSPIFFSPartition>true</AutoProgramSPIFFSPartition>
     <MainSourceDirectory>$(ProjectDir)</MainSourceDirectory>
     <ExportAdvancedBuildVariables>false</ExportAdvancedBuildVariables>
-    <SkipImportedProjectChecks>false</SkipImportedProjectChecks>
+    <SkipImportedProjectChecks>true</SkipImportedProjectChecks>
     <EmbeddedProfileFile>stm32.xml</EmbeddedProfileFile>
     <MemoryListSource>DeviceDefinition</MemoryListSource>
     <TroubleshootGeneratedConfigurationFiles>false</TroubleshootGeneratedConfigurationFiles>
@@ -25,6 +25,7 @@
     <ProjectFile>USBPDH563.vcxproj</ProjectFile>
     <RemoteBuildEnvironment>
       <Records />
+      <EnvironmentSetupFiles />
     </RemoteBuildEnvironment>
     <ParallelJobCount>1</ParallelJobCount>
     <SuppressDirectoryChangeMessages>true</SuppressDirectoryChangeMessages>
