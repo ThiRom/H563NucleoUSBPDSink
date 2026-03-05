@@ -29,8 +29,8 @@
 /* USER CODE END 1 */
 
 /* Private variables ---------------------------------------------------------*/
-#define BSP_BOARD_NAME  "";
-#define BSP_BOARD_ID    "";
+#define BSP_BOARD_NAME  "H563";
+#define BSP_BOARD_ID    "Nucleo";
 
 /* Private functions ---------------------------------------------------------*/
 
