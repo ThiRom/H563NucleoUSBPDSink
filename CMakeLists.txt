@@ -37,6 +37,12 @@ add_executable(${CMAKE_PROJECT_NAME})
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
 
+# Add sources to executable
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    # Add user sources here
+    Drivers/FromCubeH5/stm32h5xx_nucleo_usbpd_pwr.c
+)
+
 target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE -D_SNK)
 target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE -DUSE_FULL_LL_DRIVER)
 target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE -D_GUI_INTERFACE)
