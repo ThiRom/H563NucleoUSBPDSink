@@ -141,9 +141,6 @@
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma.c">
       <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
     </ClCompile>
-    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma_ex.c">
-      <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
-    </ClCompile>
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc.c">
       <Filter>Source files\Drivers\STM32H5xx_HAL_Driver</Filter>
     </ClCompile>
@@ -261,5 +258,25 @@
     <None Include="stm32.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="Drivers\FromCubeH5\stm32h5xx_nucleo_usbpd_pwr.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_adc_ex.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Drivers\FromCubeH5\stm32h5xx_nucleo_conf.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\FromCubeH5\stm32h5xx_nucleo_errno.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drivers\FromCubeH5\stm32h5xx_nucleo_usbpd_pwr.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

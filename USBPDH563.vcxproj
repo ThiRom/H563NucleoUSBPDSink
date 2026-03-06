@@ -63,6 +63,7 @@
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
+      <Optimization>O3</Optimization>
     </ClCompile>
     <Link>
       <LibrarySearchDirectories>%(Link.LibrarySearchDirectories)</LibrarySearchDirectories>
@@ -96,7 +97,6 @@
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_ll_exti.c" />
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_cortex.c" />
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma.c" />
-    <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_dma_ex.c" />
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc.c" />
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_rcc_ex.c" />
     <ClCompile Include="Drivers\STM32H5xx_HAL_Driver\Src\stm32h5xx_hal_flash.c" />
