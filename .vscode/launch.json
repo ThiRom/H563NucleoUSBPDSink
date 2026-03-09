@@ -3,8 +3,8 @@
     "configurations": [
         {
             "cwd": "${workspaceFolder}",
-            "executable": "./build/Debug/USBPDH563.elf",
-            "name": "Debug with ST-Link",
+            "executable": "./build/Release/USBPDH563.elf",
+            "name": "Release with ST-Link",
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
