@@ -21,6 +21,27 @@
                 "target/stm32h5x.cfg"
             ],
             "interface": "swd"
+        },
+        {
+            "cwd": "${workspaceFolder}",
+            "executable": "./build/Debug/USBPDH563.elf",
+            "name": "Debug with ST-Link",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "device": "STM32H563ZITx", 
+            "servertype": "openocd",
+            "serverpath": "C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.openocd.win32_2.3.200.202404091248/tools/bin/openocd.exe",
+            "searchDir": [
+                // Point to the root scripts folder, not the interface subfolder
+                "C:/ST/STM32CubeIDE_1.16.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.debug.openocd_2.2.100.202406131243/resources/openocd/st_scripts"
+            ],
+            "configFiles": [
+                // Use stlink-dap instead of stlink for H5 series support
+                "interface/stlink-dap.cfg",
+                "target/stm32h5x.cfg"
+            ],
+            "interface": "swd"
         }
     ]
 }
